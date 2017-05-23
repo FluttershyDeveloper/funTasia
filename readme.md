@@ -111,4 +111,4 @@ Have I made some mistakes about licensing? Inform me in person and not by a lawy
 
 To the extent possible under law, Christian Trant has waived all copyright and related or neighboring rights to funTasia BloX World. This work is published from: Deutschland.
 
-For further information see [license.md] or http://creativecommons.org/publicdomain/zero/1.0/ .
+For further information see [license.md](https://github.com/FluttershyDeveloper/funTasia-BloX-World/blob/master/license.md) or http://creativecommons.org/publicdomain/zero/1.0/ .
