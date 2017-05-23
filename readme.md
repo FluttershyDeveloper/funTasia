@@ -24,6 +24,8 @@
 * [What's new](#whats-new-in-this-release)
 * [Features](#features)
 * [Future prospects](#future-prospects)
+* [Contribution](#contribution)
+* [Licensing](#licensing)
 
 ## Preface
 
