@@ -71,10 +71,13 @@ Have I made some mistakes about licensing? Inform me in person and not by a lawy
 ## Future prospects
 
 - [ ] SBS - Simple Biomes System
+  
   To keep the game as simple as possible for children, there should be no hard to reach and overburden areas. 
 - [ ] ECS - Emoticon Communication System
+  
   If it is possible, there should be a emoticon system, which spawns smiley blocks over avatars head for some seconds. Maybe it's possible to avoid chats completely.
 - NVS - Narrative Voice System
+  
   All game information should presented by spoken word in the form of little narrative stories. Also information should explained by iconograpy suitable for children and some kind of full functional, animated in-game tutorials.
 - [ ] HS - Housing System
   How to realize that? There should be an own server for that. LOTRO has a nice housing system...
@@ -83,8 +86,10 @@ Have I made some mistakes about licensing? Inform me in person and not by a lawy
 - [ ] WAS - World Administration System
   - [ ] UAS - User Administration System
 - [ ] CYS - Construction Yard System
+  
   Construction Yard System means, that there should be a creators version of funTasia. Just for setting up the whole ~~pixel~~ voxel world.
 - [ ] KS - Karma System
+  
   He who seeks his own happiness by not oppressing others, who also desire to have happiness, will find happiness in his next existence. ~ [Dhammapada Verse 132](http://www.tipitaka.net/tipitaka/dhp/verseload.php?verse=131)
   
   What the player gives should happen to the player thrice. So there a karma system should be implemented.
