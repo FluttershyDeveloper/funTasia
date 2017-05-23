@@ -11,7 +11,7 @@
 [//]: # (date_of_last_change = {day = 22, month = 05, year = 2017})
 [//]: # (license = 'CC0') 
 -->
-# **funTasia BloX World** :smiley: :game_die: :world:
+# **funTasia BloX World** :smiley: :game_die: :earth_asia:
 ###### _A non-violent [Minetest](http://www.minetest.net/) subgame_
 ---
 ## Preface
