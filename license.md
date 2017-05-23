@@ -8,7 +8,7 @@
 [//]: # [!] File version numbers have to match with that release version number where the file was last amended
 [//]: # (author = {surname = 'Christian', lastname = 'Trant'})
 [//]: # (date_of_creation = {day = 21, month = 05, year = 2017})
-[//]: # (date_of_last_change = {day = 22, month = 05, year = 2017})
+[//]: # (date_of_last_change = {day = 23, month = 05, year = 2017})
 [//]: # (license = 'CC0')
 -->
 # License

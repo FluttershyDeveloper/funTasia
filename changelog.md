@@ -8,7 +8,7 @@
 [//]: # [!] File version numbers have to match with that release version number where the file was last amended
 [//]: # (author = {surname = 'Christian', lastname = 'Trant'})
 [//]: # (date_of_creation = {day = 21, month = 05, year = 2017})
-[//]: # (date_of_last_change = {day = 22, month = 05, year = 2017})
+[//]: # (date_of_last_change = {day = 23, month = 05, year = 2017})
 [//]: # (license = 'CC0')
 -->
 # Change Log
@@ -24,6 +24,11 @@ A release can be marked as 'YANKED'. Because of its security risks it mustn't be
 ## [0.1.0-unreleased-alpha] <!-- (YANKED) -->
 
 ### Added
+- init.lua
+  - local log_error(message)
+  - local log_message(log_type, message)
+- commands.lua added
+
 - recipes.lua added
   - Add cooking recipe: generic tree to 2x coal lump in 10 sec
   - Add cooking recipe: generic wood to coal lump in 8 sec
@@ -31,6 +36,9 @@ A release can be marked as 'YANKED'. Because of its security risks it mustn't be
 ### Changed
 - init.lua refactored
   - loading recipes.lua
+- debug logging improved 
+  - log_info(message), log_error(message) -> local log_message(log_type, message)
+  - set log_info(message) to local
 ### Depricated
 
 ### Removed
