@@ -43,7 +43,7 @@ Players in *funTasia BloX World* are prevented from
 * violent speech
 ---
 ###### Information
-
+---
 I'm pretty new to game scripting. By this project, I want to improve my skills about LUA and performant game scripting.  
 There are tons of awesome Minetest mods out there. At first I'll do some research about them to investigate *best practices*. Perhaps I am be able to collect them in a nice Wiki.  
 If I did something wrong or made some misspellings, you are pleased to correct me because I'm not a native english speaker.  
