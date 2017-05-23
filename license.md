@@ -11,7 +11,7 @@
 [//]: # (date_of_last_change = {day = 22, month = 05, year = 2017})
 [//]: # (license = 'CC0')
 -->
-#License
+# License
 This software is licensed under CC0 Public Domain.
 ---
 ![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)
