@@ -1,3 +1,4 @@
+<!--
 [//]: # (project_name = 'funTasia BloX World')
 [//]: # (project_alias = 'funtasia')
 [//]: # (file_name = 'changelog')
@@ -9,6 +10,7 @@
 [//]: # (date_of_creation = {day = 21, month = 05, year = 2017})
 [//]: # (date_of_last_change = {day = 22, month = 05, year = 2017})
 [//]: # (license = 'CC0')
+-->
 # Change Log
 All notable changes to this project will be documented in this file.
 
