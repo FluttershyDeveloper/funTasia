@@ -43,7 +43,8 @@ Players in *funTasia BloX World* are prevented from
 ---
 
 ## Table of content
-<!-- [//]: # (todo = 'set reference links')
+<!-- 
+[//]: # (todo = 'set reference links')
 -->
 * [Preface](#preface)
 * [What's new](#whats-new-in-this-release)
