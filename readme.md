@@ -12,12 +12,22 @@
 [//]: # (license = 'CC0') 
 -->
 # **funTasia BloX World** :smiley: :game_die: :earth_asia:
+
 ###### _A non-violent [Minetest](http://www.minetest.net/) subgame_
----
+
+## Table of content
+
+<!-- 
+[//]: # (todo = 'set reference links')
+-->
+* [Preface](#preface)
+* [What's new](#whats-new-in-this-release)
+* [Features](#features)
+* [Future prospects](#future-prospects)
+
 ## Preface
 
 **funTasia BloX World** (this minetest subgame world module pack) was created for children who love to invent and create funTastic things rather than slay their pals or clean up their playgrounds.
----
 <!-- 
 [//]: # (todo = 'Place repo badges here')
 [//]: # (---)
@@ -41,34 +51,29 @@ Players in *funTasia BloX World* are prevented from
 * fight nor destruct other players for benefits
 * clean up their rooms and sandboxes
 * violent speech
----
+
 ###### Information
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 098ae5eb22150aeece501bb02c78c0dfa68c411e
 I'm pretty new to game scripting. By this project, I want to improve my skills about LUA and performant game scripting.  
 There are tons of awesome Minetest mods out there. At first I'll do some research about them to investigate *best practices*. Perhaps I am be able to collect them in a nice Wiki.  
 If I did something wrong or made some misspellings, you are pleased to correct me because I'm not a native english speaker.  
 Have I made some mistakes about licensing? Inform me in person and not by a lawyer. I'll declare a correction and a mention as soon as possible.
----
 
-## Table of content
-<!-- 
-[//]: # (todo = 'set reference links')
--->
-* [Preface](#preface)
-* [What's new](#whats-new-in-this-release)
-* [Features](#features)
-* [Future prospects](#future-prospects)
----
 ## What's new in this release
+
 <!--
 [//]: # (Excerpt of REALLY important changelog.md entries)
 [//]: # (Stress to new features, improvements and major bugfixes)
 -->
----
+
 ## Features
----
+
 ## Future prospects
+
 - [ ] SBS - Simple Biomes System
   To keep the game as simple as possible for children, there should be no hard to reach and overburden areas. 
 - [ ] ECS - Emoticon Communication System
@@ -96,14 +101,16 @@ Have I made some mistakes about licensing? Inform me in person and not by a lawy
   - [ ] Idea: Order behavior - Clean up without using a clean up tool gives two positive karma points
   - [ ] Idea: Order behavior - Put recipe to foliant, folder or book gives one positive karma point
   - a. s. o.
----
+  
 ## Contribution
+
 <!--
 [//]: # (todo = 'add authors and licenses of used resources here')
 [//]: # (todo = 'add link to contributing.md')
 -->
----
+
 ## Licensing
+
 ![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)
 
 To the extent possible under law, Christian Trant has waived all copyright and related or neighboring rights to funTasia BloX World. This work is published from: Deutschland.
