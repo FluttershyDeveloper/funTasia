@@ -12,11 +12,14 @@
 [//]: # (license = 'CC0')
 -->
 # License
+
 This software is licensed under CC0 Public Domain.
 ---
+
 ![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)
 To the extent possible under law, Christian Trant has waived all copyright and related or neighboring rights to funTasia BloX World. This work is published from: Deutschland.
 ---
+
 Creative Commons Legal Code
 
 CC0 1.0 Universal
