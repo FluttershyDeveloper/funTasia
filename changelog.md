@@ -21,7 +21,7 @@ Possible entry types are 'Added', 'Changed', 'Depricated', 'Removed', 'Fixed' an
 
 A release can be marked as 'YANKED'. Because of its security risks it mustn't be used anymore. Download must be prohibited.
 
-## [0.1.0-Unreleased-alpha] <!-- (YANKED) -->
+## [0.1.0-unreleased-alpha] <!-- (YANKED) -->
 
 ### Added
 - recipes.lua added
@@ -53,6 +53,6 @@ A release can be marked as 'YANKED'. Because of its security risks it mustn't be
 - changelog.md created
 - readme.md created
 
-[//]: # (History of different versions)
-[Unreleased]: local
-[0.0.0-alpha]: local
+# History of releases
+[0.1.0-unreleased-alpha]: local
+[0.0.0-unreleased-alpha]: local
