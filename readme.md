@@ -1,3 +1,4 @@
+<!-- 
 [//]: # (project_name = 'funTasia BloX World')
 [//]: # (project_alias = 'funtasia')
 [//]: # (file_name = readme)
@@ -8,15 +9,18 @@
 [//]: # (author = {surname = 'Christian', lastname = 'Trant'})
 [//]: # (date_of_creation = {day = 21, month = 05, year = 2017})
 [//]: # (date_of_last_change = {day = 22, month = 05, year = 2017})
-[//]: # (license = 'CC0')
-# **funTasia BloX World** :smiley: :game_die: :world_asia:
+[//]: # (license = 'CC0') 
+-->
+# **funTasia BloX World** :smiley: :game_die: :world:
 ###### _A non-violent [Minetest](http://www.minetest.net/) subgame_
 ---
 ## Preface
 **funTasia BloX World** (this minetest subgame world module pack) was created for children who love to invent and create funTastic things rather than slay their pals or clean up their playgrounds.
 ---
+<!-- 
 [//]: # (todo = 'Place repo badges here')
 [//]: # (---)
+-->
 [Minetest](http://www.minetest.net/) is a block game primarly inpired by [Minecraft](https://minecraft.net/de-de/). It is highly customizable by user scripts called mods. These mods are written in an embeddet [LUA](https://www.lua.org/) environment.
 
 From the beginning of our childhood construction toys are present. They are considered as useful to train creativity and to learn how to abide rules. There are thousands of products out there - common toys and gaming software. Children start playing with new technologies at an increasingly early age. They explore the behavior of computer or smartphone apps and games intuitively without the ability to read. They are reliant on an intuitive and simple usablility. This would be arrived by a - non-cluttered - suitable iconograpy, speech output and simple design instructions.  
@@ -27,7 +31,9 @@ Players in *funTasia BloX World* only have to focus on their
 * social behavior in peer group 
 * own creative skills
 
+<!--
 [//]: # (todo = 'add more fancy pros')
+-->
 
 Players in *funTasia BloX World* are prevented from
 * destruct 'living environment' for subsistence (therefor 'adult' worker NPCs are built-in) 
@@ -37,15 +43,18 @@ Players in *funTasia BloX World* are prevented from
 ---
 
 ## Table of content
-[//]: # (todo = 'set reference links')
-* [Preface](#)
-* [What's new](#)
-* [Features](#)
-* [Future prospects](#)
+<!-- [//]: # (todo = 'set reference links')
+-->
+* [Preface](#preface)
+* [What's new](#whats-new-in-this-release)
+* [Features](#features)
+* [Future prospects](#future-prospects)
 ---
 ## What's new in this release
+<!--
 [//]: # (Excerpt of REALLY important changelog.md entries)
 [//]: # (Stress to new features, improvements and major bugfixes)
+-->
 ---
 ## Features
 ---
@@ -70,8 +79,10 @@ Players in *funTasia BloX World* are prevented from
   - a. s. o.
 ---
 ## Contribution
+<!--
 [//]: # (todo = 'add authors and licenses of used resources here')
 [//]: # (todo = 'add link to contributing.md')
+-->
 ---
 ## Licensing
 ![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)
