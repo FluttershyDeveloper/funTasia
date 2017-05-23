@@ -21,7 +21,7 @@
 [//]: # (todo = 'Place repo badges here')
 [//]: # (---)
 -->
-[Minetest](http://www.minetest.net/) is a block game primarly inpired by [Minecraft](https://minecraft.net/de-de/). It is highly customizable by user scripts called mods. These mods are written in an embeddet [LUA](https://www.lua.org/) environment.
+[Minetest](http://www.minetest.net/) is a block game primarly inspired by [Minecraft](https://minecraft.net/de-de/). It is highly customizable by user scripts called mods. These mods are written in an embeddet [LUA](https://www.lua.org/) environment.
 
 From the beginning of our childhood construction toys are present. They are considered as useful to train creativity and to learn how to abide rules. There are thousands of products out there - common toys and gaming software. Children start playing with new technologies at an increasingly early age. They explore the behavior of computer or smartphone apps and games intuitively without the ability to read. They are reliant on an intuitive and simple usablility. This would be arrived by a - non-cluttered - suitable iconograpy, speech output and simple design instructions.  
 Most of gaming software imply some violent characteristics. For example, the player have to kill some non-playing characters (NPC) to get the chance to a specific game item or in-game animals must be slaughtered for food by players themself.  
