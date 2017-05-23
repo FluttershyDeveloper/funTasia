@@ -36,10 +36,10 @@ Players in *funTasia BloX World* only have to focus on their
 -->
 
 Players in *funTasia BloX World* are prevented from
-* destruct 'living environment' for subsistence (therefor 'adult' worker NPCs are built-in) 
+* destruct 'living environment' for subsistence
 * fight nor destruct other players for benefits
-* clean up their rooms and sandboxes (therefor cleanup mechanisms are built-in)
-* violent speech by chat (therefor an emoticon communication system is built-in)
+* clean up their rooms and sandboxes
+* violent speech
 ---
 
 ## Table of content
