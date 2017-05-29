@@ -36,7 +36,7 @@
 -->
 [Minetest](http://www.minetest.net/) is a block game primarly inspired by [Minecraft](https://minecraft.net/de-de/). It is highly customizable by user scripts called mods. These mods are written in LUA script language and would be executed by an embedded [LUA](https://www.lua.org/) environment.
 
-From the beginning of our childhood construction toys are present. They are considered as useful to train creativity and to learn how to abide rules. There are thousands of products out there - common toys and gaming software. Children start playing with new technologies at an increasingly early age. They explore the behavior of computer or smartphone apps and games intuitively without the ability to read. They are reliant on an intuitive and simple usablility. This would be arrived by a - non-cluttered - suitable iconograpy, speech output and simple design instructions.  
+From the beginning of our childhood construction toys are present. They are considered as useful to train creativity and to learn how to abide rules. There are thousands of products out there - common toys and gaming software. Children start playing with new technologies at an increasingly early age. They explore the behavior of computer or smartphone apps and games intuitively without the ability to read. They are reliant on an intuitive and simple usablility. This would be arrived by a - non-cluttered - suitable pictograms, speech output and simple design instructions.  
 Most of gaming software imply some violent characteristics. For example, the player have to kill some non-playing characters (NPC) to get the chance to a specific game item or in-game animals must be slaughtered for food by players themself.  
 So children not only have to stress on the creative construction site, even more they must direct their focus to destructive details - at most in a matter of violence. Here *funTasia BloX World* comes into play.
 
@@ -80,7 +80,7 @@ Have I made some mistakes about licensing? Inform me in person and not by a lawy
   If it is possible, there should be a emoticon system, which spawns smiley blocks over avatars head for some seconds. Maybe it's possible to avoid chats completely.
 - NVS - Narrative Voice System
   
-  All game information should presented by spoken word in the form of little narrative stories. Also information should explained by iconograpy suitable for children and some kind of full functional, animated in-game tutorials.
+  All game information should presented by spoken word in the form of little narrative stories. Also information should explained by pictograms suitable for children and some kind of full functional, animated in-game tutorials.
 - [ ] HS - Housing System
   How to realize that? There should be an own server for that. LOTRO has a nice housing system...
   - [ ] Idea: Housing for players (shared locked area)
