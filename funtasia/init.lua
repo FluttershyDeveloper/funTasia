@@ -1,3 +1,4 @@
+
 --# (project_name = 'funTasia BloX World')
 --# (project_alias = 'funtasia')
 --# (file_name = 'init')
