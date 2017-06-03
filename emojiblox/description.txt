@@ -1,0 +1,13 @@
+EmojiBloX - FunTasia Blox World
+
+Adds a system of a subset of 'emojione' emoji blocks.
+
+All the tribute goes to EmojiOne (https://www.emojione.com) who do the great artwork of the emojis.
+
+The used subset of EmojiOne v2.2.7 PNG files are licensed under 
+
+Creative Commons Attribution International 4.0 (CC-BY 4.0)
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Download: https://github.com/emojione/emojione/tree/2.2.7
+Used subset: emojione-2.2.7\assets\png

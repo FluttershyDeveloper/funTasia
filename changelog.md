@@ -24,6 +24,10 @@ A release can be marked as 'YANKED'. Because of its security risks it mustn't be
 ## [0.1.0-unreleased-alpha] <!-- (YANKED) -->
 
 ### Added
+- emojiblox -> Emoji blocks
+  - subset of EmojiOne emojis as blocks
+  - descritption.txt added
+- descritption.txt added
 - init.lua
   - local log_error(message)
   - local log_message(log_type, message)
