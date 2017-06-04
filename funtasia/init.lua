@@ -1,37 +1,66 @@
-
 --# (project_name = 'funTasia BloX World')
 --# (project_alias = 'funtasia')
 --# (file_name = 'init')
 --# (file_extension = 'lua')
 --# (file_format = 'lua script')
---# (file_version = {major_version = 0, minor_version = 1, patch_version = 0, suffix_version = 'alpha'})
+--# (file_version = {major_version = 0, minor_version = 2, patch_version = 0, suffix_version = 'alpha'})
 --# [!] File version numbers have to match with that release version number where the file was last amended
 --# (author = {surname = 'Christian', lastname = 'Trant'})
 --# (date_of_creation = {day = 21, month = 05, year = 2017})
---# (date_of_last_change = {day = 23, month = 05, year = 2017})
+--# (date_of_last_change = {day = 04, month = 06, year = 2017})
 --# (license = 'CC0')
-
 funtasia = {}
 
 funtasia.name = minetest.get_current_modname()
 funtasia.fullname = 'funTasia BloX World'
 funtasia.path = minetest.get_modpath(funtasia.name)
 funtasia.version = {major = 0,
-                    minor = 1,
+                    minor = 2,
 					patch = 0,
 					suffixes = {'unreleased',
             					'alpha'}}
-							
+-- Initialization of the lua-module 'log_helper'
+local _logger = dofile(funtasia.path .. '/log_helper.lua')
+
+-- funtasia.tell_log_info(self, message)
+-- tell the message as an info entry to debug.txt 
+function funtasia.tell_log_info(self, message)
+  local _result = false
+  if type(message) ~= 'string' then 
+    self:tell_error('message must be a string')
+	return _result
+  end
+  _result = _logger.write_log_info(self.tell_mod_identifier(self), message)
+  return _result
+end
+
+-- funtasia.tell_log_error(self, message)
+-- tell the message as an error entry to debug.txt 
+function funtasia.tell_log_error(self, message)
+  local _result = false
+  if type(message) ~= 'string' then 
+    self:tell_error('message must be a string')
+	return _result
+  end
+  _result = _logger.write_log_error(self.tell_mod_identifier(self), message)
+  return _result
+end
+
+-- funtasia.tell_error(self, message)
+-- tell the message as an error entry to debug.txt and cast it as a fatal error
+function funtasia.tell_error(self, message)
+  if type(message) ~= 'string' then 
+    self:tell_error('message must be a string')
+	return _result
+  end
+    local _message = 'ERROR:' .. self.tell_mod_identifier(self) .. ': ' .. tostring(message)
+	self.tell_log_error(self, _message)
+    error(_message)    
+end
+
 -- funtasia.get_version_string(self)
 -- Get a version string with format 'major.minor.patch-suffixes'
--- TODO: looks a little bit messy. clean up.
-
-function funtasia:get_version_string()
-  if not self.version then
-    local error_message = 'funtasia.version is nil, but it must be defined.'
-	log_error(error_message)
-    error(error_message)    
-  end
+function funtasia.tell_version_string(self)
   local result = 'M.m.p-(suffix)'
   if self.version.major and self.version.minor and self.version.patch then
     result = tostring(self.version.major) .. '.' ..
@@ -48,50 +77,18 @@ function funtasia:get_version_string()
   return result
 end
 
-----------------------------
--- Helper
-----------------------------								
--- TODO: Refactor helper out
-
--- bool log_message(log_type, message)
--- Write a log 'message' of 'log_type' to debug.txt
--- this is the abstraction for log_info(message) and log_error(message)
-local function log_message(log_type, message)
-  if not log_type or not message then end
-  -- TODO check log_type
+-- funtasia.tell_mod_identifier(self)
+-- Get a mod identifier string with format '[Mod] %self.fullname [%self.tell_version_string()] [%self.name]'
+function funtasia.tell_mod_identifier(self)
   local _message = string.format('[Mod] %s [%s] [%s]',
-                                 funtasia.fullname,
-	   		     				 funtasia:get_version_string(),
-							     funtasia.name)
-  minetest.log(tostring(log_type), string.rep('#', 80))
-  minetest.log(tostring(log_type), _message .. ' ' .. tostring(message))
-  minetest.log(tostring(log_type), string.rep('#', 80))
-  return true
+                                 self.fullname,
+	   		     				 self:tell_version_string(),
+							     self.name)
+  return _message
 end
 
--- bool log_info(message)
--- Write a log message of type info to debug.txt
--- Example: log_info('>TEST<')
--- -> debug.txt -> 
--- '[Mod] funTasia BloX World [0.1.0-unreleased-alpha] [funtasia] >TEST<'
-local function log_info(message)
-  local _result = false
-  _result = log_message('info', tostring(message))
-  return _result
-end
-
--- bool log_error(message)
--- Write a log message of type error to debug.txt
-local function log_error(message)
-  local _result = false
-  _result = log_message('error', tostring(message))
-  return _result
-end
-
-
-log_info('loading...')
 -- TODO: require libs?
 dofile(funtasia.path .. '/commands.lua')
 dofile(funtasia.path .. '/recipes.lua')
-log_info('loaded.')
-print('[Mod]' .. funtasia.fullname .. ' [' .. funtasia:get_version_string() .. '] [' .. funtasia.name .. '] loaded.')
+funtasia:tell_log_info('has been loaded.')
+print('[Mod]' .. funtasia.fullname .. ' [' .. funtasia:tell_version_string() .. '] [' .. funtasia.name .. '] loaded.')
