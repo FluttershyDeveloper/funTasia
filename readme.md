@@ -76,8 +76,12 @@ Have I made some mistakes about licensing? Inform me in person and not by a lawy
   
   To keep the game as simple as possible for children, there should be no hard to reach and overburden areas. 
 - [ ] ECS - Emoticon Communication System
+  - [ ] EmojiBloX - dynamically loaded
+  - [ ] EmojiSticKerZ - dynamically loaded
+  - [ ] Unified EmojiBloX/EmojiSticKerZ configuration menu -> Administration
+  - [ ] 
   
-  If it is possible, there should be a emoticon system, which spawns smiley blocks over avatars head for some seconds. Maybe it's possible to avoid chats completely.
+  I'm going to write an emoji system, which spawns emoji blocks over avatars head for some seconds. It should be possible to avoid text chat completely.
 - NVS - Narrative Voice System
   
   All game information should presented by spoken word in the form of little narrative stories. Also information should explained by pictograms suitable for children and some kind of full functional, animated in-game tutorials.
