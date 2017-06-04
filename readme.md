@@ -75,9 +75,9 @@ Have I made some mistakes about licensing? Inform me in person and not by a lawy
 - [ ] SBS - Simple Biomes System
   
   To keep the game as simple as possible for children, there should be no hard to reach and overburden areas. 
-- [ ] ECS - Emoticon Communication System
-  - [ ] EmojiBloX - dynamically loaded
-  - [ ] EmojiSticKerZ - dynamically loaded
+- [ ] ECS - Emoji Communication System
+  - [ ] EmojiBloX - Emoji decoration blocks
+  - [ ] EmojiSticKerZ - Emoji decoration
   - [ ] Unified EmojiBloX/EmojiSticKerZ configuration menu -> Administration
   - [ ] 
   

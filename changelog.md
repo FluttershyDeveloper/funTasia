@@ -20,8 +20,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 Possible entry types are 'Added', 'Changed', 'Depricated', 'Removed', 'Fixed' and 'Security'.
 
 A release can be marked as 'YANKED'. Because of its security risks it mustn't be used anymore. Download must be prohibited.
+## [0.2.0-unreleased-alpha] <!-- (YANKED) -->
+## Added
+- funtasia -> lua-module log_helper.lua added
+- funtasia -> init.lua
+  - tell_log_info(self, message) added
+  - tell_error(self, message) added
+  - tell_mod_identifier(self) added
+  - some integrity checks added
+## Changed
+- funtasia -> init.lua refactored
+  - local log_error(message) refactored to tell_log_error(self, message)
+  - local log_message(log_type, message) refactored out to log_helper.write_log_message(log_type, mod_identifier, message)
+### Depricated
 
-## [0.1.0-unreleased-alpha] <!-- (YANKED) -->
+### Removed
+
+### Fixed
+
+### Security
+
+  ## [0.1.0-unreleased-alpha] <!-- (YANKED) -->
 
 ### Added
 - emojiblox -> Emoji blocks
